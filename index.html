@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário de Clientes</title>
+</head>
+<body>
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend><b>Fomulário de clientes</b></legend><br>
+                    <div class="InputBox">
+                        <input type="text" id="nome" name="nome" class="InputUser" required>
+                        <label for="nome" class="labelInput">Nome Completo</label>
+                    </div>
+                    <br><br>
+                    <div class="InputBox">
+                        <input type="text" id="email" name="email" class="InputUser" required>
+                        <label for="email" class="labelInput">Email</label> 
+                    </div>
+                    <br><br>
+                    <div class="InputBox">
+                        <input id="fone" type="tel" name="fone" class="InputUser" required>
+                        <label for="fone" class="labelInput">Telefone</label>
+                    </div>
+                    <br><br>
+                    <p>Género:<p>
+                    <input id="Masculino" type="radio" name="Género" value="Masculino">
+                    <label for="Masculino">Masculino</label>
+                    <br>    
+                    <input id="Feminino" type="radio" name="Género" value="Feminino">
+                    <label for="Feminino">Feminino</label>
+                    <br>
+                    <input id="Outro" type="radio" name="Género" value="Outro">
+                    <label for="Outro">Outro</label><br><br>    
+                <div>
+                    <label for="data_nascimento"><b>Data Nascimento:</b></label>
+                    <input type="date" id="data_nascimento" name="data_nascimento">
+                </div>
+                <br><br>
+                <div class="InputBox">
+                    <input type="text" id="cidade" name="cidade" class="InputUser" required>
+                    <label for="cidade" class="labelInput">Cidade</label>
+                </div>
+                    <br><br>
+                    <label for="estado"><b>Estado:</b></label>
+                    <select name="estado" id="estado">
+                        <option value="AC">AC</option>
+                        <option value="AL">AL</option>
+                        <option value="AP">AP</option>
+                        <option value="AM">AM</option>
+                        <option value="BA">BA</option>
+                        <option value="CE">CE</option>
+                        <option value="ES">ES</option>
+                        <option value="GO">GO</option>
+                        <option value="MA">MA</option>
+                        <option value="MT">MT</option>
+                        <option value="MS">MS</option>
+                        <option value="MG">MG</option>
+                        <option value="PA">PA</option>
+                        <option value="PB">PB</option>
+                        <option value="PR">PR</option>
+                        <option value="PE">PE</option>
+                        <option value="PI">PI</option>
+                        <option value="RJ">RJ</option>
+                        <option value="RN">RN</option>
+                        <option value="RS">RS</option>
+                        <option value="RO">RO</option>
+                        <option value="RR">RR</option>
+                        <option value="SC">SC</option>
+                        <option value="SP">SP</option>
+                        <option value="SE">SE</option>
+                        <option value="TO">TO</option>
+                        <option value="DF">DF</option>
+                    </select>
+                    <br><br>
+                    <div class="InputBox">
+                        <input type="text" id="endereço" name="endereço" class="InputUser" required>
+                        <label for="endereço" class="labelInput">Endereço</label>
+                    </div><br><br>
+                <div>
+                    <input type="submit" name="submit" id="submit">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
